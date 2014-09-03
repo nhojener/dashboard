@@ -1,7 +1,8 @@
 {
-    "lights" : {
-        "florescent" : 0,
-        "incandecent" : 0,
-        "led" : 0
-    }
+    "lights": {
+        "florescent": 0,
+        "incandecent": 0,
+        "led": 0
+    },
+    "test_branch" : true
 }
