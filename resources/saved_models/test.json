@@ -1,0 +1,51 @@
+{
+    "pages": {
+        "page1": {
+            "id": "page1",
+            "title": "Page 1",
+            "panes": {
+                "switch": {
+                    "id": "switch",
+                    "title": "Switch",
+                    "widgets": {
+                        "switch_1407914898063": {
+                            "type": "switch",
+                            "config": {
+                                "name": "Light 1",
+                                "var_name": "state",
+                                "read_url": "http://localhost/data.php?id=1",
+                                "write_url": "http://localhost/data.php?id=1",
+                                "refresh": "3000",
+                                "on_text": "on",
+                                "off_text": "off"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "page2": {
+            "id": "page2",
+            "title": "Page 2",
+            "panes": {
+                "graph": {
+                    "id": "graph",
+                    "title": "Graph",
+                    "widgets": {
+                        "rtgraph_1407914979429": {
+                            "type": "rtgraph",
+                            "config": {
+                                "name": "Test",
+                                "type": "spline",
+                                "read_url": "http://localhost/data.php?type=json",
+                                "refresh": "5000",
+                                "y_axis_title": "Consumption",
+                                "x_axis_title": "Time"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

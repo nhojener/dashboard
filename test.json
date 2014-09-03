@@ -1,0 +1,7 @@
+{
+    "lights" : {
+        "florescent" : 0,
+        "incandecent" : 0,
+        "led" : 0
+    }
+}

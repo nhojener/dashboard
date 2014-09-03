@@ -1,0 +1,1 @@
+{"pages":{"dashboard":{"id":"dashboard","title":"Dashboard","panes":{"graph":{"id":"graph","title":"Graph","widgets":{"rtgraph_1407916006097":{"type":"rtgraph","config":{"name":"Test","type":"spline","read_url":"http://localhost/data.php?type=json"}}}}}}}}
